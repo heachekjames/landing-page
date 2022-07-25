@@ -1,5 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 a{
     text-decoration: none;
@@ -10,7 +12,7 @@ li{
     flex-direction: row;
     text-decoration: none;
     list-style: none;
-    margin: 10px;
+    margin: 5px;
 }
 .header{
     background-color: #1F2937;
@@ -24,6 +26,7 @@ li{
 
 .listlinks{
     display: flex;
+    gap: 2px;
 }
 
 
@@ -47,6 +50,40 @@ li{
 .first-section{
 background-color: #1F2937;
 display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.button-one{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    margin: 1em;
+    background-color: #3882F6;
+}
+
+
+.first-section p{
+    margin-top: 0px;
+}
+
+.awesome{
+    margin-bottom: 0px
+}
+
+.image-placeholder{
+    background-color: gray;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    text-justify: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .signup{
@@ -55,6 +92,24 @@ display: flex;
     flex-wrap: wrap;
 }
 
+.signup button{
+
+    color: #E5E7EB;
+}
+
+#awesome{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.second-section{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .third-section{
     display: flex;
     flex-direction: column;
@@ -66,6 +121,54 @@ display: flex;
     font-family: Arial, Helvetica, sans-serif;
 
     
+}
+
+.fourth-section{
+   
+    margin: 2em;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 600px;
+    height: 100px;
+    color: #F9FAF8;
+    
+}
+
+#call-to-action{
+    font-weight: 900;
+    margin-bottom: 0px;
+
+}
+
+.call-to-action-container{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+#call-to-action-two{
+    font-size: small;
+    margin-top: 5px;
+   
+}
+
+.fourth-section button{
+    border-radius: 3px;
+    height: 30px;
+    width: 90px;
+    color: #F9FAF8;
+    font-weight: 800;
+    justify-self: center;
+    align-self: center;
+
+    border: 2px solid #E5E7EB;
+    
+
+    background-color: #3882F6;
 }
 
 #quote{
@@ -80,4 +183,11 @@ display: flex;
     font-size: 18px;
     align-self: flex-end;
     justify-self: flex-end;
+}
+
+.footer{
+    text-align: center;
+    color: #F9FAF8;
+    font-size: smaller;
+    font-weight: 400;
 }
